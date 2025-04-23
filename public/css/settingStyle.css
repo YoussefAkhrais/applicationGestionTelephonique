@@ -1,0 +1,32 @@
+a{
+    width: 200px;
+}
+.formUpdatePassword {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.alertUpdate{
+    opacity: 0;
+    animation: alertAnimation 1s ease;
+}
+
+@keyframes alertAnimation{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.75;
+    }
+    50%{
+        opacity: 0.60;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
